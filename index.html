@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwissRoHub.ch – Români în Elveția</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>SwissRoHub.ch</h1>
+        <p>Portal complet pentru românii din Elveția</p>
+        <nav>
+            <ul>
+                <li><a href="#acte">Acte</a></li>
+                <li><a href="#munca">Muncă</a></li>
+                <li><a href="#locuinte">Locuințe</a></li>
+                <li><a href="#transport">Transport</a></li>
+                <li><a href="#integrare">Integrare</a></li>
+                <li><a href="#anunturi">Anunțuri</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="acte">
+            <h2>Acte și Rezidență</h2>
+            <p><a href="https://www.sem.admin.ch/sem/en/home.html" target="_blank">Permise L, B, C – SEM</a></p>
+            <p><a href="https://www.ch.ch/en/" target="_blank">Pașii de înregistrare – ch.ch</a></p>
+            <p>Documente pentru înscriere, mutație, eliberare număr AVS.</p>
+        </section>
+
+        <section id="munca">
+            <h2>Piața Muncii și Șomaj</h2>
+            <p><a href="https://www.jobup.ch" target="_blank">JobUp.ch</a></p>
+            <p><a href="https://www.indeed.ch" target="_blank">Indeed.ch</a></p>
+            <p><a href="https://www.arbeit.swiss" target="_blank">Arbeit.swiss</a></p>
+            <p>Informații despre RAV, drepturi angajat, salariu minim, contracte de muncă.</p>
+        </section>
+
+        <section id="locuinte">
+            <h2>Locuințe</h2>
+            <p>Ghiduri pentru căutare locuințe, contracte de închiriere, garanții și schimbare adresă.</p>
+        </section>
+
+        <section id="transport">
+            <h2>Transport</h2>
+            <p>Transport public (SBB), bilete, abonamente, taxe auto, permis elvețian.</p>
+        </section>
+
+        <section id="integrare">
+            <h2>Integrare</h2>
+            <p>Asociații românești, cursuri de limbă germană, fide, examene de integrare.</p>
+        </section>
+
+        <section id="anunturi">
+            <h2>Anunțuri</h2>
+            <form id="adForm">
+                <input type="text" placeholder="Titlul anunțului" required>
+                <textarea placeholder="Descriere" required></textarea>
+                <input type="text" placeholder="Locație">
+                <label for="payment">Plata: Twint / Revolut / IBAN</label>
+                <select id="payment">
+                    <option>Twint</option>
+                    <option>Revolut</option>
+                    <option>IBAN</option>
+                </select>
+                <button type="submit">Trimite anunțul</button>
+            </form>
+            <div id="adPreview"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 SwissRoHub.ch – Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>
